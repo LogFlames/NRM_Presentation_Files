@@ -7,7 +7,7 @@
 ##
 
 
-with open("external_files/p098_words.txt", "r") as f:
+with open("words.txt", "r") as f:
     words = list(map(lambda x: x[1:-1], f.read().split(",")))
     ind_words = list(zip(range(len(words)), words))
 
